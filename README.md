@@ -1,9 +1,9 @@
 # TextBasedRPG
 
-Adventure through a story with all features devloped by myself.
+Adventure through a fully fledged story with all features devloped by myself.
 
 
-# To Do:
+# To Do: 10/30/2020
 * [] Inputing chracter atrributes.
 * [] Chracter atrribute randomizer.
 * [] Battle phase.
