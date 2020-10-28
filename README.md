@@ -10,5 +10,5 @@ Adventure through a fully fledged story with all features devloped by myself.
 # Utility elements:
 - Validiting user Input as non-null letters only **Function call:** 
     `NameCheck.StringValidator.ConsoleUserInputChecker(Console.ReadLine()); `
-- Moving data between forms.
+- Moving data between forms (in progress).
 
