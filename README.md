@@ -2,7 +2,7 @@
 
 Adventure through a fully fledged story with all features devloped by myself.
 
-# To Do: 10/30/2020
+# To Do: 11/06/2020
 * [] Inputing chracter atrributes.
 * [] Chracter atrribute randomizer.
 * [] Battle phase.
