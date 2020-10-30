@@ -8,3 +8,4 @@ C:\Users\Captain\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.cspr
 C:\Users\Captain\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.GenerateResource.cache
 C:\Users\Captain\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.CharacterClassCreator.resources
 C:\Users\Captain\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.Properties.Resources.resources
+C:\Users\Captain\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\ConsoleApp2.CharacterAttributeAllocator.resources

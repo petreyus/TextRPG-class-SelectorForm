@@ -49,7 +49,7 @@ namespace ConsoleApp2
 
         private void checkBoxWarrior_CheckedChanged(object sender, EventArgs e)
         {
-            SelectOnly1Box(1);
+            SelectsOnly1CheckBox(1);
            if (this.checkBoxWarrior.Checked)
             {
                 Console.ForegroundColor = ConsoleColor.Red;
@@ -69,7 +69,7 @@ namespace ConsoleApp2
 
         private void checkBoxMage_CheckedChanged(object sender, EventArgs e)
         {
-            SelectOnly1Box(2);
+            SelectsOnly1CheckBox(2);
             if (this.checkBoxMage.Checked)
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
@@ -91,7 +91,7 @@ namespace ConsoleApp2
 
         private void checkBoxThief_CheckedChanged(object sender, EventArgs e)
         {
-            SelectOnly1Box(3);
+            SelectsOnly1CheckBox(3);
 
             if (this.checkBoxThief.Checked)
             {
@@ -108,17 +108,17 @@ namespace ConsoleApp2
         }
 
 
-        public void SelectOnly1Box(int input)
+        public void SelectsOnly1CheckBox(int input)
         {
 
-            //// this block greys out other choices while warrior is selected
+            //// this block->greys-out other check choices while warrior is selected
             int classSelected = input;
             switch (classSelected) {
                case 1:
                     
                         if (this.checkBoxMage.Checked || this.checkBoxThief.Checked)
                         {
-                           // this.checkBoxWarrior.Checked = true;
+                       //     this.checkBoxWarrior.Checked = true;
 
                             this.checkBoxMage.Checked = false;
                             this.checkBoxThief.Checked = false;
@@ -133,7 +133,7 @@ namespace ConsoleApp2
                         if (this.checkBoxWarrior.Checked || this.checkBoxThief.Checked)
         
                         {
-                           // this.checkBoxMage.Checked = true;
+                         //   this.checkBoxMage.Checked = true;
 
                             this.checkBoxWarrior.Checked = false;
                             this.checkBoxThief.Checked = false;
@@ -148,8 +148,10 @@ namespace ConsoleApp2
                         if (this.checkBoxWarrior.Checked || this.checkBoxMage.Checked)
 
                         {
-                            this.checkBoxWarrior.Checked = false;
-                            this.checkBoxMage.Checked = false;
+                           //  this.checkBoxThief.Checked = true;
+                             
+                             this.checkBoxWarrior.Checked = false;
+                             this.checkBoxMage.Checked = false;
                         }
                         break;
 
